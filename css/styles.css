@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.right-links a {
+    margin: 0 10px;
+    color: #5f6368;
+}
+
+/* Main Container */
+.container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.logo img {
+    width: 272px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+    position: relative;
+    display: inline-block;
+}
+
+.search-bar input {
+    width: 580px;
+    padding: 12px 60px 12px 50px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-bar input:focus {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+/* Icon inside search bar */
+.lupa-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+/* Search Icons */
+.search-icons {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.search-icons img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #e8e8e8;
+}
+
+/* Language Links */
+.language {
+    margin-top: 20px;
+}
+
+.language a {
+    color: #1a0dab;
+}
+
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links a {
+    color: #5f6368;
+    margin: 0 10px;
+    font-size: 12px;
+}
